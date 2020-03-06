@@ -10,23 +10,23 @@
                 <td>
                     <form onsubmit="event.preventDefault();onFormSubmit();" autocomplete="off">
                         <div>
-                            <label>Full Name*</label><label class="validation-error hide" id="fullNameValidationError">This field is required.</label>
+                            <label>Nome Completo*</label><label class="validation-error hide" id="fullNameValidationError">This field is required.</label>
                             <input type="text" name="fullName" id="fullName">
                         </div>
                         <div>
-                            <label>EMP Code</label>
+                            <label>Nome da Empresa</label>
                             <input type="text" name="empCode" id="empCode">
                         </div>
                         <div>
-                            <label>Salary</label>
+                            <label>Salário</label>
                             <input type="text" name="salary" id="salary">
                         </div>
                         <div>
-                            <label>City</label>
+                            <label>Cidade - UF</label>
                             <input type="text" name="city" id="city">
                         </div>
                         <div  class="form-action-buttons">
-                            <input type="submit" value="Submit">
+                            <input type="submit" value="Cadastrar">
                         </div>
                     </form>
                 </td>
@@ -34,11 +34,12 @@
                     <table class="list" id="employeeList">
                         <thead>
                             <tr>
-                                <th>Full Name</th>
-                                <th>EMP Code</th>
-                                <th>Salary</th>
-                                <th>City</th>
-                                <th></th>
+                                <th>Nome Completo</th>
+                                <th>Nome da Empresa</th>
+                                <th>Salário</th>
+                                <th>Cidade - UF</th>
+                                <th>Editar</th>
+                                <th>Apagar</th>
                             </tr>
                         </thead>
                         <tbody>

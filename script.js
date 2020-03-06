@@ -1,4 +1,4 @@
-var selectedRow = null
+var selectedRow = null;
 
 function onFormSubmit() {
     if (validate()) {
@@ -32,8 +32,9 @@ function insertNewRecord(data) {
     cell4 = newRow.insertCell(3);
     cell4.innerHTML = data.city;
     cell4 = newRow.insertCell(4);
-    cell4.innerHTML = `<a onClick="onEdit(this)">Edit</a>
-                       <a onClick="onDelete(this)">Delete</a>`;
+    cell4.innerHTML = `<input type="submit" class="btnAlterar" onClick="onEdit(this)" value="Editar">`;
+    cell5 = newRow.insertCell(5);
+    cell5.innerHTML = `<input type="submit" class="btnAlterar" onClick="onDelete(this)" value="Apagar">`;                   
 }
 
 function resetForm() {
@@ -51,6 +52,7 @@ function onEdit(td) {
     document.getElementById("salary").value = selectedRow.cells[2].innerHTML;
     document.getElementById("city").value = selectedRow.cells[3].innerHTML;
 }
+
 function updateRecord(formData) {
     selectedRow.cells[0].innerHTML = formData.fullName;
     selectedRow.cells[1].innerHTML = formData.empCode;
@@ -58,8 +60,9 @@ function updateRecord(formData) {
     selectedRow.cells[3].innerHTML = formData.city;
 }
 
+/*Are you sure to delete this record */ 
 function onDelete(td) {
-    if (confirm('Are you sure to delete this record ?')) {
+    if (confirm(' Você deseja apagar esse registro ?')) {
         row = td.parentElement.parentElement;
         document.getElementById("employeeList").deleteRow(row.rowIndex);
         resetForm();
