@@ -10,7 +10,7 @@
 - Em HTML CSS JAVASCRIPT fazer um crud de usuário.
 
 ## Projeto `CRUD de Usuário` publicado
-- CRUD de usuário [CRUD USUÁRIO](https://condemned-creature.surge.sh)
+- [CRUD de USUÁRIO](https://condemned-creature.surge.sh)
 - Servidor Surge.sh
 
 :. Do Perfil Medium : `@douglasabnovato`</br>
