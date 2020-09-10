@@ -1,17 +1,23 @@
-## CRUD de Usuário
+### CRUD de Usuário
 
-### Criação: 06 de março de 2020
-### Atualização: 06 de março de 2020
-### Terminado: Sim 
-### Publicado: Sim
-### Prática : @douglasabnovato
+#### Objetivo
 
-## Desafio do projeto `CRUD de Usuário`
-- Em HTML CSS JAVASCRIPT fazer um crud de usuário.
+Em HTML CSS JAVASCRIPT fazer um crud de usuário.
 
-## Projeto `CRUD de Usuário` publicado
-- [CRUD de USUÁRIO](https://condemned-creature.surge.sh)
-- Servidor Surge.sh
+#### Ferramentas / Tecnologias
 
-:. Do Perfil Medium : `@douglasabnovato`</br>
-Por Douglas A B Novato :  `https://medium.com/@douglasabnovato`
+Servidor de hospedagem gratuito Surge.sh.
+
+#### Detalhes
+
+- Criação: 06 de março de 2020
+- Atualização: 06 de março de 2020
+- Terminado: Sim 
+- Publicado: [CRUD de USUÁRIO](https://condemned-creature.surge.sh)
+
+#### Publicado
+
+- Cadastrar Usuário <br/>
+![CRUD de USUÁRIO](/tela-1.jpg)<br/>
+
+:. [Linkedin - @douglasabnovato](https://www.linkedin.com/in/douglasabnovato/)
